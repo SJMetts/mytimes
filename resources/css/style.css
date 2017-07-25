@@ -1,14 +1,38 @@
-.topnav {
-	display: inline-block;
-}
-
-header {
+.header {
 	font-family:Verdana;
 	font-size: 14px;
 	font-weight: bold;
 	border-bottom: 1px solid black;
+	display:flex;
+	width:100%;
+	align-items:center;
+	justify-content:space-between;
+	
 }
 
-header .logo {
-	color: MediumAquamarine;
+.header img {
+	margin: 10px;
+
 }
+
+.logo{
+	color: #6DA;
+	display:flex;
+	align-items:center;
+	flex-grow: 1;
+	padding-left:30px;
+}
+
+.topnav {
+	padding-right:30px;
+}
+
+.topnav a{
+	color: black;
+}
+
+.topnav span {
+	display:inline-block;
+	margin:5px;
+}
+
