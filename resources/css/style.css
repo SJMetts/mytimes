@@ -1,0 +1,14 @@
+.topnav {
+	display: inline-block;
+}
+
+header {
+	font-family:Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+header .logo {
+	color: MediumAquamarine;
+}
